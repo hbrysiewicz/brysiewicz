@@ -1,0 +1,34 @@
+/*
+Sass::SyntaxError: ".navbar a" failed to @extend "%link".
+The selector "%link" was not found.
+Use "@extend %link !optional" if the extend should be able to fail.
+
+
+Backtrace:
+/Users/furball/Code/brysiewicz/app/sass/modules/navigation.sass:14
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/tree/visitors/extend.rb:61:in `block in check_extends_fired!'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/util/subset_map.rb:106:in `block in each_value'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/util/subset_map.rb:106:in `each'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/util/subset_map.rb:106:in `each_value'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/tree/visitors/extend.rb:50:in `check_extends_fired!'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/tree/visitors/extend.rb:16:in `visit'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/tree/root_node.rb:39:in `css_tree'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/tree/root_node.rb:20:in `render'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/engine.rb:268:in `render'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/listen-2.8.5/lib/listen/listener.rb:282:in `call'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/listen-2.8.5/lib/listen/listener.rb:282:in `_process_changes'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/listen-2.8.5/lib/listen/listener.rb:246:in `block in _wait_for_changes'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/listen-2.8.5/lib/listen/listener.rb:229:in `loop'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/listen-2.8.5/lib/listen/listener.rb:229:in `_wait_for_changes'
+/Users/furball/.rvm/gems/ruby-2.1.2/gems/listen-2.8.5/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Sass::SyntaxError: \".navbar a\" failed to @extend \"%link\".\A The selector \"%link\" was not found.\A Use \"@extend %link !optional\" if the extend should be able to fail.\A "; }

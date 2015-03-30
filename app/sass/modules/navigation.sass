@@ -1,0 +1,34 @@
+@import load
+
+.navbar
+  +box-shadow(0 50px 50px -30px rgba($d-blue, .25))
+  width: 100%
+  padding:
+    top: 20px
+    bottom: 40px
+  margin:
+    top: 20px
+    left: 20px
+
+  a
+    @extend %link
+
+.navbar-header
+  float: left
+  font-size: 24px
+  line-height: 30px
+
+.navbar-brand
+  font-weight: 700
+
+.navbar-toggle.collapsed
+  display: none
+
+.nav li
+  @extend %link
+  float: left
+  padding-left: 10px
+  padding-right: 10px
+  list-style-type: none
+  cursor: pointer
+  line-height: 36px

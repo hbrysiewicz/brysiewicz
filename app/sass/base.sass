@@ -1,0 +1,43 @@
+@import compass/reset
+@import load
+
+body
+  font-family: 'Trebuchet MS', sans
+  margin: 0
+
+%link
+  +transition-duration(.25s)
+  +transition-property(color)
+  color: $d-blue
+  text-decoration: none
+  &:hover
+    color: lighten($d-blue, 8%)
+
+.pull-right
+  float: right
+
+.content
+  width: 90%
+  margin: 0 auto
+
+.content-container
+  margin-top: 20px
+
+  a
+    border-bottom: none
+    text-decoration: none
+    color: $d-grey
+
+.content-wrap
+  padding: 10px
+  border-bottom: 1px solid lighten($l-grey, 8%)
+  color: $d-grey
+
+  &:last-child
+    border-bottom: none
+
+.content-interactive:hover
+  +transition-duration(.25s)
+  +transition-property(background-color)
+  background-color: darken($white, 5%)
+  cursor: pointer

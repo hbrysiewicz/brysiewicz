@@ -1,0 +1,12 @@
+<h2 class='add-recipe__header'>
+  All Recipes
+  {{#link-to 'recipe.new' tagName='button' class="button--m add-recipe__button pull-right"}}Add Recipe{{/link-to}}
+</h2>
+
+<div class='content-container'>
+  {{#each content as |recipe|}}
+    <div class='content-wrap content-interactive'>
+      {{#link-to 'recipe' recipe}}{{recipe.title}}{{/link-to}}
+    </div>
+  {{/each}}
+</div>

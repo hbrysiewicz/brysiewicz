@@ -1,0 +1,10 @@
+/* line 1, ../../sass/modules/recipes.sass */
+.add-recipe__header {
+  font-size: 24px;
+  line-height: 58px;
+}
+
+/* line 5, ../../sass/modules/recipes.sass */
+.add-recipe__button {
+  width: 120px;
+}

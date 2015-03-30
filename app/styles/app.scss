@@ -1,0 +1,42 @@
+$d-blue: #113F8C;
+
+body {
+  font-family: 'Trebuchet MS', sans
+}
+
+a {
+  color: $d-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten($d-blue, 8%)
+  }
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+}
+
+.navbar-header {
+  float: left;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-toggle.collapsed {
+  display: none;
+}
+
+.nav {
+  li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+    cursor: pointer;
+    color: $d-blue
+  }
+}
