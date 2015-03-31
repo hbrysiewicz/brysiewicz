@@ -5,8 +5,8 @@
 
 <div class='content-container'>
   {{#each content as |recipe|}}
-    <div class='content-wrap content-interactive'>
-      {{#link-to 'recipe' recipe}}{{recipe.title}}{{/link-to}}
-    </div>
+    {{#link-to 'recipe' recipe tagName='div' class='content-wrap content-interactive'}}
+      {{recipe.title}}
+    {{/link-to}}
   {{/each}}
 </div>

@@ -134,6 +134,12 @@ body {
   cursor: pointer;
 }
 
+/* line 45, ../sass/base.sass */
+.content-wrap__inner {
+  height: 100%;
+  width: 100%;
+}
+
 /* line 3, ../sass/modules/intercom.sass */
 .alert {
   padding: 4px;
